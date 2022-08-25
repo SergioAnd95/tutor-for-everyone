@@ -133,3 +133,7 @@ poetry.lock
 
 # db
 *.sqlite3
+
+#ide files
+.idea/
+.vscode/
