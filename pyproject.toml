@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "tutor_for_everyone"
+version = "0.1.0"
+description = ""
+authors = ["Serhij Andreev <serhij.andreev@raccoongang.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^4.1"
+djangorestframework = "^3.13.1"
+django-rest-swagger = "^2.2.0"
+djangorestframework-simplejwt = "^5.2.0"
+environs = "^9.5.0"
+psycopg2 = "^2.9.3"
+drf-yasg = "^1.21.3"
+gunicorn = "*"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
